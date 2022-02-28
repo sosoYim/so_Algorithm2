@@ -14,6 +14,21 @@ M(70<=M<=10,000)이 주어집니다. 승객의 몸무게는 50이상 1,000이하
 
  */
 
-function solution(nums, m) {}
+function solution(nums, m) {
+  let answer = 0;
+  let lt = 0;
+  let rt = nums.length - 1;
+  nums.sort((a, b) => a - b);
+  while (lt < rt) {
+    answer += 1;
+    if (nums[lt] + nums[rt] <= m) {
+      lt++;
+      rt--;
+    } else {
+      rt--;
+    }
+  }
+  return answer;
+}
 
 console.log(solution([90, 50, 70, 100, 60], 140)); // 3
