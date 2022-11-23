@@ -1,8 +1,9 @@
 # so_Algorithm2
+> 좋은 엔지니어가 되기 위한 사고력 훈련 중
 
-Daily algorithms (at least 2 questions Mon to Fri)
+## 목표
 
-## Daily problems
+- [ ] [leetcode 14 days of Algorithm 1](https://leetcode.com/study-plan/algorithm/?progress=xwirbegd)
+- [ ] next...?
 
-2022-02-21: X
-2022-02-22: 기본 문제 다시 풀기(투포인터, 슬라이딩 윈도우)
+
